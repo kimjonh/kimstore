@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+
+# Large files (reports, PPTs, PDFs)
+reports/
+ppt/
+*.pdf
+*.pptx
+*.docx
+
+# Temporary
+rankings_rendered.html
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc large files
+_misc/
+
+# Privacy
+.claude/
+node_modules/
+investment_screener/
+data/financials/
+data/prices/
