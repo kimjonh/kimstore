@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenRouter LLM Rankings - 2026-W21</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background: #0f172a; color: #e2e8f0; padding: 24px; }
+.container { max-width: 960px; margin: 0 auto; }
+h1 { font-size: 24px; margin-bottom: 4px; }
+.subtitle { color: #94a3b8; font-size: 14px; margin-bottom: 32px; }
+.section { margin-bottom: 40px; }
+.section h2 { font-size: 18px; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid #1e293b; }
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; color: #64748b; font-size: 12px; text-transform: uppercase; padding: 8px 12px; border-bottom: 1px solid #1e293b; }
+td { padding: 10px 12px; border-bottom: 1px solid #1e293b11; font-size: 14px; }
+tr:hover { background: #1e293b44; }
+.rank { width: 40px; color: #64748b; font-weight: 600; text-align: center; }
+.name { font-weight: 500; }
+.author { display: block; font-size: 12px; color: #64748b; font-weight: 400; }
+.tokens { font-variant-numeric: tabular-nums; text-align: right; width: 100px; }
+.change { text-align: right; width: 80px; font-weight: 500; }
+.share { display: flex; align-items: center; gap: 8px; width: 200px; }
+.bar-bg { flex: 1; height: 6px; background: #1e293b; border-radius: 3px; overflow: hidden; }
+.bar-fill { height: 100%; background: #6366f1; border-radius: 3px; }
+.chart-container { height: 300px; margin-bottom: 32px; }
+.footer { color: #475569; font-size: 12px; margin-top: 40px; padding-top: 16px; border-top: 1px solid #1e293b; }
+.footer a { color: #6366f1; }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>LLM Rankings</h1>
+    <p class="subtitle">OpenRouter Weekly Usage &mdash; 2026-W21 &middot; Updated 2026-05-29</p>
+
+    <div class="chart-container"><canvas id="trendChart"></canvas></div>
+
+    <div class="section">
+        <h2>Model Rankings (20 models)</h2>
+        <table>
+            <tr><th></th><th>Model</th><th>Tokens/Week</th><th>Change</th></tr>
+            
+        <tr>
+            <td class="rank">1</td>
+            <td class="name">DeepSeek V4 Flash<span class="author">by deepseek</span></td>
+            <td class="tokens">3.53T</td>
+            <td class="change" style="color:#22c55e">&#9650; 17.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">2</td>
+            <td class="name">Hy3 preview<span class="author">by tencent</span></td>
+            <td class="tokens">3.11T</td>
+            <td class="change" style="color:#22c55e">&#9650; 6.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">3</td>
+            <td class="name">Claude Opus 4.7<span class="author">by anthropic</span></td>
+            <td class="tokens">2.64T</td>
+            <td class="change" style="color:#22c55e">&#9650; 73.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">4</td>
+            <td class="name">Claude Sonnet 4.6<span class="author">by anthropic</span></td>
+            <td class="tokens">2.05T</td>
+            <td class="change" style="color:#22c55e">&#9650; 25.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">5</td>
+            <td class="name">Owl Alpha<span class="author">by openrouter</span></td>
+            <td class="tokens">1.38T</td>
+            <td class="change" style="color:#22c55e">&#9650; 17.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">6</td>
+            <td class="name">DeepSeek V4 Pro<span class="author">by deepseek</span></td>
+            <td class="tokens">1.21T</td>
+            <td class="change" style="color:#22c55e">&#9650; 24.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">7</td>
+            <td class="name">Gemini 3 Flash Preview<span class="author">by google</span></td>
+            <td class="tokens">1.01T</td>
+            <td class="change" style="color:#22c55e">&#9650; 11.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">8</td>
+            <td class="name">DeepSeek V3.2<span class="author">by deepseek</span></td>
+            <td class="tokens">961.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 12.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">9</td>
+            <td class="name">MiMo-V2.5-Pro<span class="author">by xiaomi</span></td>
+            <td class="tokens">819.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 475.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">10</td>
+            <td class="name">Nemotron 3 Super (free)<span class="author">by nvidia</span></td>
+            <td class="tokens">662.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 12.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">11</td>
+            <td class="name">Gemini 2.5 Flash Lite<span class="author">by google</span></td>
+            <td class="tokens">626.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 10.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">12</td>
+            <td class="name">Kimi K2.6<span class="author">by moonshotai</span></td>
+            <td class="tokens">620.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 15.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">13</td>
+            <td class="name">Gemini 2.5 Flash<span class="author">by google</span></td>
+            <td class="tokens">540.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 6.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">14</td>
+            <td class="name">MiniMax M2.7<span class="author">by minimax</span></td>
+            <td class="tokens">538.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 13.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">15</td>
+            <td class="name">Gemini 3.5 Flash<span class="author">by google</span></td>
+            <td class="tokens">520.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 364.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">16</td>
+            <td class="name">GPT-4o-mini<span class="author">by openai</span></td>
+            <td class="tokens">495.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 70.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">17</td>
+            <td class="name">GPT-5.5<span class="author">by openai</span></td>
+            <td class="tokens">468.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 6.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">18</td>
+            <td class="name">Claude Opus 4.6<span class="author">by anthropic</span></td>
+            <td class="tokens">457.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 11.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">19</td>
+            <td class="name">MiMo-V2.5<span class="author">by xiaomi</span></td>
+            <td class="tokens">421.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 338.0%</td>
+        </tr>
+        <tr>
+            <td class="rank">20</td>
+            <td class="name">Laguna M.1 (free)<span class="author">by poolside</span></td>
+            <td class="tokens">403.0B</td>
+            <td class="change" style="color:#22c55e">&#9650; 61.0%</td>
+        </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Market Share by Author</h2>
+        <table>
+            <tr><th></th><th>Author</th><th>Tokens</th><th>Share</th></tr>
+            
+        <tr>
+            <td class="rank">1</td>
+            <td class="name">anthropic</td>
+            <td class="tokens">4.07T</td>
+            <td class="share">
+                <div class="bar-bg"><div class="bar-fill" style="width:100.0%"></div></div>
+                <span>18.9%</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="rank">2</td>
+            <td class="name">deepseek</td>
+            <td class="tokens">3.87T</td>
+            <td class="share">
+                <div class="bar-bg"><div class="bar-fill" style="width:95.0859950859951%"></div></div>
+                <span>18.0%</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="rank">3</td>
+            <td class="name">google</td>
+            <td class="tokens">2.91T</td>
+            <td class="share">
+                <div class="bar-bg"><div class="bar-fill" style="width:71.49877149877149%"></div></div>
+                <span>13.5%</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="rank">4</td>
+            <td class="name">tencent</td>
+            <td class="tokens">2.15T</td>
+            <td class="share">
+                <div class="bar-bg"><div class="bar-fill" style="width:52.825552825552826%"></div></div>
+                <span>10.0%</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="rank">5</td>
+            <td class="name">openai</td>
+            <td class="tokens">2.08T</td>
+            <td class="share">
+                <div class="bar-bg"><div class="bar-fill" style="width:51.105651105651106%"></div></div>
+                <span>9.6%</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="rank">6</td>
+            <td class="name">xiaomi</td>
+            <td class="tokens">1.36T</td>
+            <td class="share">
+                <div class="bar-bg"><div class="bar-fill" style="width:33.415233415233416%"></div></div>
+                <span>6.3%</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="rank">7</td>
+            <td class="name">openrouter</td>
+            <td class="tokens">1.04T</td>
+            <td class="share">
+                <div class="bar-bg"><div class="bar-fill" style="width:25.552825552825553%"></div></div>
+                <span>4.8%</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="rank">8</td>
+            <td class="name">qwen</td>
+            <td class="tokens">827.0B</td>
+            <td class="share">
+                <div class="bar-bg"><div class="bar-fill" style="width:20.31941031941032%"></div></div>
+                <span>3.8%</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="rank">9</td>
+            <td class="name">z-ai</td>
+            <td class="tokens">675.0B</td>
+            <td class="share">
+                <div class="bar-bg"><div class="bar-fill" style="width:16.584766584766587%"></div></div>
+                <span>3.1%</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="rank">10</td>
+            <td class="name">Others</td>
+            <td class="tokens">2.58T</td>
+            <td class="share">
+                <div class="bar-bg"><div class="bar-fill" style="width:63.39066339066339%"></div></div>
+                <span>12.0%</span>
+            </td>
+        </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        Data from <a href="https://openrouter.ai/rankings">openrouter.ai/rankings</a> &middot;
+        Auto-updated weekly via <a href="https://github.com/kimjonh/kimstore">GitHub Actions</a>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+    <script>
+    const ctx = document.getElementById('trendChart');
+    if (ctx) {
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["2026-W21"],
+                datasets: [{label: 'Hy3 preview', data: [3110000000000], borderColor: '#6366f1', tension: 0.3, spanGaps: false}, {label: 'Claude Opus 4.7', data: [2640000000000], borderColor: '#22c55e', tension: 0.3, spanGaps: false}, {label: 'Claude Sonnet 4.6', data: [2050000000000], borderColor: '#f59e0b', tension: 0.3, spanGaps: false}, {label: 'DeepSeek V4 Flash', data: [3530000000000], borderColor: '#ef4444', tension: 0.3, spanGaps: false}, {label: 'Gemini 3 Flash Preview', data: [1010000000000], borderColor: '#06b6d4', tension: 0.3, spanGaps: false}, {label: 'Owl Alpha', data: [1380000000000], borderColor: '#a855f7', tension: 0.3, spanGaps: false}, {label: 'DeepSeek V4 Pro', data: [1210000000000], borderColor: '#ec4899', tension: 0.3, spanGaps: false}, {label: 'DeepSeek V3.2', data: [961000000000], borderColor: '#14b8a6', tension: 0.3, spanGaps: false}]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: { ticks: { callback: v => v >= 1e12 ? (v/1e12).toFixed(1) + 'T' : (v/1e9).toFixed(0) + 'B' } }
+                },
+                plugins: { legend: { position: 'bottom' } }
+            }
+        });
+    }
+    </script>
+</body>
+</html>

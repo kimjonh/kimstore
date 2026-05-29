@@ -1,7 +1,7 @@
 [
   {
     "source": "https://openrouter.ai/rankings",
-    "fetched_at": "2026-05-29T13:46:45.767413+00:00",
+    "fetched_at": "2026-05-29T14:03:08.652066+00:00",
     "week": "2026-W21",
     "model_rankings": [
       {
@@ -169,71 +169,71 @@
       {
         "rank": 1,
         "author": "anthropic",
-        "tokens": 4040000000000,
-        "tokens_display": "4.04T",
+        "tokens": 4070000000000,
+        "tokens_display": "4.07T",
         "market_share_pct": 18.9
       },
       {
         "rank": 2,
         "author": "deepseek",
-        "tokens": 3840000000000,
-        "tokens_display": "3.84T",
+        "tokens": 3870000000000,
+        "tokens_display": "3.87T",
         "market_share_pct": 18.0
       },
       {
         "rank": 3,
         "author": "google",
-        "tokens": 2880000000000,
-        "tokens_display": "2.88T",
+        "tokens": 2910000000000,
+        "tokens_display": "2.91T",
         "market_share_pct": 13.5
       },
       {
         "rank": 4,
         "author": "tencent",
-        "tokens": 2130000000000,
-        "tokens_display": "2.13T",
+        "tokens": 2150000000000,
+        "tokens_display": "2.15T",
         "market_share_pct": 10.0
       },
       {
         "rank": 5,
         "author": "openai",
-        "tokens": 2060000000000,
-        "tokens_display": "2.06T",
+        "tokens": 2080000000000,
+        "tokens_display": "2.08T",
         "market_share_pct": 9.6
       },
       {
         "rank": 6,
         "author": "xiaomi",
-        "tokens": 1330000000000,
-        "tokens_display": "1.33T",
-        "market_share_pct": 6.2
+        "tokens": 1360000000000,
+        "tokens_display": "1.36T",
+        "market_share_pct": 6.3
       },
       {
         "rank": 7,
         "author": "openrouter",
-        "tokens": 1030000000000,
-        "tokens_display": "1.03T",
+        "tokens": 1040000000000,
+        "tokens_display": "1.04T",
         "market_share_pct": 4.8
       },
       {
         "rank": 8,
         "author": "qwen",
-        "tokens": 818000000000,
-        "tokens_display": "818.0B",
+        "tokens": 827000000000,
+        "tokens_display": "827.0B",
         "market_share_pct": 3.8
       },
       {
         "rank": 9,
         "author": "z-ai",
-        "tokens": 670000000000,
-        "tokens_display": "670.0B",
+        "tokens": 675000000000,
+        "tokens_display": "675.0B",
         "market_share_pct": 3.1
       },
       {
         "rank": 10,
         "author": "Others",
-        "tokens": 2560000000000,
-        "tokens_display": "2.56T",
+        "tokens": 2580000000000,
+        "tokens_display": "2.58T",
         "market_share_pct": 12.0
       }
     ]
