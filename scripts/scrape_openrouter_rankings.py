@@ -34,7 +34,7 @@ def parse_model_rankings(page):
             amount = float(match.group(4))
             unit = match.group(5)
             change_pct = float(match.group(6))
-            tokens = amount * (1e12 if unit == "T" else 1e9)
+            tokens = round(amount * (1e12 if unit == "T" else 1e9))
             models.append({
                 "rank": rank,
                 "name": name,
