@@ -8,7 +8,7 @@
 import json
 import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
@@ -238,14 +238,17 @@ tr:hover {{ background: #1e293b44; }}
 
 def main():
     timestamp = datetime.now(timezone.utc).isoformat()
-    week_str = datetime.now().strftime("%Y-W%W")
+    # 使用 ISO 周数（%V），与 GitHub Actions 的 date +%Y-W%V 保持一致
+    now = datetime.now()
+    iso_year, iso_week, _ = now.isocalendar()
+    week_str = f"{iso_year}-W{iso_week:02d}"
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
-        page.goto("https://openrouter.ai/rankings", wait_until="domcontentloaded", timeout=30000)
+        page.goto("https://openrouter.ai/rankings", wait_until="domcontentloaded", timeout=90000)
         # 等待数据加载完成
-        page.wait_for_selector('[data-testid="model-rankings-leaderboard-row"]', timeout=30000)
+        page.wait_for_selector('[data-testid="model-rankings-leaderboard-row"]', timeout=90000)
         page.wait_for_timeout(2000)
 
         # 展开更多模型
