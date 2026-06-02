@@ -284,6 +284,14 @@
         "weekly_change_pct": 44.0
       },
       {
+        "rank": 6,
+        "name": "MiMo-V2.5",
+        "author": "xiaomi",
+        "tokens": 1700000000000,
+        "tokens_display": "1.7T",
+        "weekly_change_pct": 999.0
+      },
+      {
         "rank": 7,
         "name": "DeepSeek V4 Pro",
         "author": "deepseek",

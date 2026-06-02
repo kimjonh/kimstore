@@ -24,9 +24,9 @@ def parse_model_rankings(page):
     models = []
     for row in rows:
         text = row.text_content().strip()
-        # 格式: "1. DeepSeek V4 Flashby deepseek3.53T tokens17%"
+        # 格式: "1. DeepSeek V4 Flashby deepseek3.53T tokens17%" 或 "6. MiMo-V2.5by xiaomi1.7T tokens>999%"
         match = re.match(
-            r"(\d+)\.\s*(.+?)by\s+(\S+?)([\d.]+)([BT])\s*tokens?\s*(\d+)%", text
+            r"(\d+)\.\s*(.+?)by\s+(\S+?)([\d.]+)([BT])\s*tokens?\s*([><]?\d+)%", text
         )
         if match:
             rank = int(match.group(1))
@@ -34,7 +34,8 @@ def parse_model_rankings(page):
             author = match.group(3).strip()
             amount = float(match.group(4))
             unit = match.group(5)
-            change_pct = float(match.group(6))
+            change_pct_str = match.group(6)
+            change_pct = float(change_pct_str.lstrip("><"))
             tokens = round(amount * (1e12 if unit == "T" else 1e9))
             models.append({
                 "rank": rank,

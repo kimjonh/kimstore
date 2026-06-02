@@ -4,6 +4,7 @@
 3,Claude Opus 4.7,anthropic,2.32T(3),2.64T(3)
 4,Claude Sonnet 4.6,anthropic,1.92T(4),2.05T(4)
 5,Owl Alpha,openrouter,1.66T(5),1.38T(5)
+6,MiMo-V2.5,xiaomi,1.7T(6),421.0B(19)
 7,DeepSeek V4 Pro,deepseek,1.25T(7),1.21T(6)
 8,MiMo-V2.5-Pro,xiaomi,1.24T(8),819.0B(9)
 9,DeepSeek V3.2,deepseek,1.04T(9),961.0B(8)
@@ -18,4 +19,3 @@
 18,MiniMax M2.7,minimax,526.0B(18),538.0B(14)
 19,GPT-4o-mini,openai,481.0B(19),495.0B(16)
 20,GPT-5.5,openai,473.0B(20),468.0B(17)
-,MiMo-V2.5,xiaomi,,421.0B(19)
