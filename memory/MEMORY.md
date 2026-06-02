@@ -1,1 +1,1 @@
-- [OpenRouter Rankings 追踪项目](openrouter-rankings-project.md) — GitHub Actions 每周抓取 LLM 排行榜，仓库 kimjonh/kimstore
+- [OpenRouter Rankings 追踪项目](openrouter-rankings-project.md) — 关键词触发: ranking/rankings/排行榜 — GitHub Actions 每周一 UTC 00:00 抓取 LLM 排行榜

@@ -1,6 +1,6 @@
 ---
 name: openrouter-rankings-project
-description: OpenRouter LLM rankings scraper on GitHub Actions, repo kimjonh/kimstore
+description: OpenRouter LLM rankings weekly scraper — triggers on "ranking", "rankings", "排行榜"
 metadata:
   type: reference
 ---
