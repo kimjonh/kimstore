@@ -15,7 +15,7 @@ metadata:
 
 ## 核心文件
 - `scripts/scrape_openrouter_rankings.py` — Playwright 抓取脚本，抓 openrouter.ai/rankings 页面
-- `.github/workflows/rankings.yml` — 每周一 UTC 07:00（北京 15:00）自动运行
+- `.github/workflows/rankings.yml` — 每周一 UTC 00:00（北京 08:00）自动运行，抓取完整的上周数据
 - `data/openrouter_rankings/timeline.json` — 历史数据（追加模式，不覆盖）
 - `data/openrouter_rankings/rankings.html` — 可视化报告（含 Chart.js 趋势图）
 
@@ -44,7 +44,7 @@ metadata:
 - 如需改频率：修改 `.github/workflows/rankings.yml` 的 cron 表达式
 
 ## 运行方式
-- GitHub Actions 自动运行：每周一 UTC 07:00（北京 15:00）
+- GitHub Actions 自动运行：每周一 UTC 00:00（北京 08:00），抓取完整的上周数据
 - 本地手动运行：`python scripts/scrape_openrouter_rankings.py`
 - 仅重新生成报告（不抓取）：`python scripts/scrape_openrouter_rankings.py --regenerate`
 

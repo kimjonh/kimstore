@@ -2,8 +2,8 @@ name: Weekly OpenRouter Rankings
 
 on:
   schedule:
-    # 每周一 UTC 07:00 运行（北京时间周一15:00）
-    - cron: '0 7 * * 1'
+    # 每周一 UTC 00:00 运行（北京时间周一08:00），抓取完整的上周数据
+    - cron: '0 0 * * 1'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
