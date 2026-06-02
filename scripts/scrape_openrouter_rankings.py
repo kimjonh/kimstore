@@ -98,7 +98,7 @@ def generate_csv(timeline, csv_path):
             }
             model_author[name] = m["author"]
             # 最新一周的排名作为主排名
-            if week == weeks[-1]:
+            if week == weeks[0]:
                 model_latest_rank[name] = m["rank"]
 
     # 按最新排名排序
