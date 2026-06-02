@@ -76,35 +76,55 @@ def parse_market_share(page):
 
 
 def generate_csv(timeline, csv_path):
-    """生成 CSV 报告：每个模型每周的调用数据和变化"""
+    """生成 CSV 报告：宽表格式，每个模型一行，各周数据在列上展开"""
     import csv as csv_module
 
-    rows = []
-    weeks = sorted({e["week"] for e in timeline})
-    seen_models = set()
+    weeks = sorted({e["week"] for e in timeline}, reverse=True)
+
+    # 建立模型索引: model_name -> { week -> {rank, tokens_display} }
+    model_data = {}
+    model_author = {}
+    model_latest_rank = {}
 
     for entry in timeline:
         week = entry["week"]
         for m in entry.get("model_rankings", []):
-            rows.append({
-                "week": week,
+            name = m["name"]
+            if name not in model_data:
+                model_data[name] = {}
+            model_data[name][week] = {
                 "rank": m["rank"],
-                "model": m["name"],
-                "author": m["author"],
-                "tokens": m["tokens"],
                 "tokens_display": m["tokens_display"],
-                "weekly_change_pct": m["weekly_change_pct"],
-            })
-            seen_models.add(m["name"])
+            }
+            model_author[name] = m["author"]
+            # 最新一周的排名作为主排名
+            if week == weeks[-1]:
+                model_latest_rank[name] = m["rank"]
+
+    # 按最新排名排序
+    sorted_models = sorted(model_data.keys(), key=lambda n: model_latest_rank.get(n, 999))
+
+    # 表头: rank, model, author, 2026-W21, 2026-W22, ...
+    fieldnames = ["rank", "model", "author"] + weeks
 
     with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
-        writer = csv_module.DictWriter(f, fieldnames=[
-            "week", "rank", "model", "author", "tokens", "tokens_display", "weekly_change_pct"
-        ])
-        writer.writeheader()
-        writer.writerows(rows)
+        writer = csv_module.writer(f)
+        writer.writerow(fieldnames)
+        for name in sorted_models:
+            row = [
+                model_latest_rank.get(name, ""),
+                name,
+                model_author.get(name, ""),
+            ]
+            for w in weeks:
+                d = model_data[name].get(w)
+                if d:
+                    row.append(f"{d['tokens_display']}({d['rank']})")
+                else:
+                    row.append("")
+            writer.writerow(row)
 
-    print(f"[*] CSV: {csv_path} ({len(rows)} rows, {len(weeks)} weeks, {len(seen_models)} models)")
+    print(f"[*] CSV: {csv_path} ({len(sorted_models)} models, {len(weeks)} weeks)")
 
 
 def format_tokens(n):
