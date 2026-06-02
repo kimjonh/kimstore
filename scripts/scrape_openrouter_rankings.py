@@ -5,6 +5,7 @@
 运行：python scripts/scrape_openrouter_rankings.py
 """
 
+import argparse
 import json
 import os
 import re
@@ -72,6 +73,38 @@ def parse_market_share(page):
             "market_share_pct": share_pct,
         })
     return shares
+
+
+def generate_csv(timeline, csv_path):
+    """生成 CSV 报告：每个模型每周的调用数据和变化"""
+    import csv as csv_module
+
+    rows = []
+    weeks = sorted({e["week"] for e in timeline})
+    seen_models = set()
+
+    for entry in timeline:
+        week = entry["week"]
+        for m in entry.get("model_rankings", []):
+            rows.append({
+                "week": week,
+                "rank": m["rank"],
+                "model": m["name"],
+                "author": m["author"],
+                "tokens": m["tokens"],
+                "tokens_display": m["tokens_display"],
+                "weekly_change_pct": m["weekly_change_pct"],
+            })
+            seen_models.add(m["name"])
+
+    with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
+        writer = csv_module.DictWriter(f, fieldnames=[
+            "week", "rank", "model", "author", "tokens", "tokens_display", "weekly_change_pct"
+        ])
+        writer.writeheader()
+        writer.writerows(rows)
+
+    print(f"[*] CSV: {csv_path} ({len(rows)} rows, {len(weeks)} weeks, {len(seen_models)} models)")
 
 
 def format_tokens(n):
@@ -237,6 +270,25 @@ tr:hover {{ background: #1e293b44; }}
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--regenerate", action="store_true",
+                        help="仅重新生成 HTML 和 CSV（不抓取），使用已有的 timeline.json 数据")
+    args = parser.parse_args()
+
+    # 仅重新生成报告模式
+    if args.regenerate:
+        timeline_path = DATA_DIR / "timeline.json"
+        if not timeline_path.exists():
+            print("[!] timeline.json 不存在，无法重新生成")
+            return
+        with open(timeline_path, "r", encoding="utf-8") as f:
+            timeline = json.load(f)
+        current = timeline[-1]
+        generate_html(current, timeline, DATA_DIR / "rankings.html")
+        generate_csv(timeline, DATA_DIR / "rankings.csv")
+        print(f"[OK] 报告已重新生成 — week {current['week']}, {len(timeline)} 周数据, {len(timeline[-1].get('model_rankings',[]))} 个模型")
+        return
+
     timestamp = datetime.now(timezone.utc).isoformat()
     # 使用 ISO 周数（%V），与 GitHub Actions 的 date +%Y-W%V 保持一致
     now = datetime.now()
@@ -291,6 +343,10 @@ def main():
     # 生成 HTML
     html_path = DATA_DIR / "rankings.html"
     generate_html(result, timeline, html_path)
+
+    # 生成 CSV
+    csv_path = DATA_DIR / "rankings.csv"
+    generate_csv(timeline, csv_path)
 
     # 打印摘要
     print(f"[OK] 抓取完成 — {timestamp}")
