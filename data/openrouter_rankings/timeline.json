@@ -476,5 +476,236 @@
         "market_share_pct": 12.4
       }
     ]
+  },
+  {
+    "source": "https://openrouter.ai/rankings",
+    "fetched_at": "2026-06-08T14:41:27.418733+00:00",
+    "week": "2026-W24",
+    "model_rankings": [
+      {
+        "rank": 1,
+        "name": "DeepSeek V4 Flash",
+        "author": "deepseek",
+        "tokens": 3690000000000,
+        "tokens_display": "3.69T",
+        "weekly_change_pct": 19.0
+      },
+      {
+        "rank": 2,
+        "name": "Hy3 preview",
+        "author": "tencent",
+        "tokens": 2940000000000,
+        "tokens_display": "2.94T",
+        "weekly_change_pct": 3.0
+      },
+      {
+        "rank": 4,
+        "name": "MiMo-V2.5",
+        "author": "xiaomi",
+        "tokens": 2190000000000,
+        "tokens_display": "2.19T",
+        "weekly_change_pct": 50.0
+      },
+      {
+        "rank": 5,
+        "name": "Owl Alpha",
+        "author": "openrouter",
+        "tokens": 1950000000000,
+        "tokens_display": "1.95T",
+        "weekly_change_pct": 17.0
+      },
+      {
+        "rank": 6,
+        "name": "Claude Sonnet 4.6",
+        "author": "anthropic",
+        "tokens": 1760000000000,
+        "tokens_display": "1.76T",
+        "weekly_change_pct": 9.0
+      },
+      {
+        "rank": 7,
+        "name": "DeepSeek V4 Pro",
+        "author": "deepseek",
+        "tokens": 1700000000000,
+        "tokens_display": "1.7T",
+        "weekly_change_pct": 35.0
+      },
+      {
+        "rank": 8,
+        "name": "Claude Opus 4.7",
+        "author": "anthropic",
+        "tokens": 1440000000000,
+        "tokens_display": "1.44T",
+        "weekly_change_pct": 38.0
+      },
+      {
+        "rank": 9,
+        "name": "DeepSeek V3.2",
+        "author": "deepseek",
+        "tokens": 1170000000000,
+        "tokens_display": "1.17T",
+        "weekly_change_pct": 12.0
+      },
+      {
+        "rank": 10,
+        "name": "Claude Opus 4.8",
+        "author": "anthropic",
+        "tokens": 1160000000000,
+        "tokens_display": "1.16T",
+        "weekly_change_pct": 300.0
+      },
+      {
+        "rank": 11,
+        "name": "Gemini 3 Flash Preview",
+        "author": "google",
+        "tokens": 1050000000000,
+        "tokens_display": "1.05T",
+        "weekly_change_pct": 10.0
+      },
+      {
+        "rank": 12,
+        "name": "Step 3.7 Flash",
+        "author": "stepfun",
+        "tokens": 810000000000,
+        "tokens_display": "810.0B",
+        "weekly_change_pct": 764.0
+      },
+      {
+        "rank": 13,
+        "name": "MiMo-V2.5-Pro",
+        "author": "xiaomi",
+        "tokens": 674000000000,
+        "tokens_display": "674.0B",
+        "weekly_change_pct": 46.0
+      },
+      {
+        "rank": 14,
+        "name": "Gemini 2.5 Flash",
+        "author": "google",
+        "tokens": 631000000000,
+        "tokens_display": "631.0B",
+        "weekly_change_pct": 19.0
+      },
+      {
+        "rank": 15,
+        "name": "Gemini 2.5 Flash Lite",
+        "author": "google",
+        "tokens": 594000000000,
+        "tokens_display": "594.0B",
+        "weekly_change_pct": 3.0
+      },
+      {
+        "rank": 16,
+        "name": "Laguna M.1 (free)",
+        "author": "poolside",
+        "tokens": 568000000000,
+        "tokens_display": "568.0B",
+        "weekly_change_pct": 7.0
+      },
+      {
+        "rank": 17,
+        "name": "Nemotron 3 Super (free)",
+        "author": "nvidia",
+        "tokens": 534000000000,
+        "tokens_display": "534.0B",
+        "weekly_change_pct": 20.0
+      },
+      {
+        "rank": 18,
+        "name": "Gemini 3.5 Flash",
+        "author": "google",
+        "tokens": 487000000000,
+        "tokens_display": "487.0B",
+        "weekly_change_pct": 8.0
+      },
+      {
+        "rank": 19,
+        "name": "Claude Opus 4.6",
+        "author": "anthropic",
+        "tokens": 458000000000,
+        "tokens_display": "458.0B",
+        "weekly_change_pct": 15.0
+      },
+      {
+        "rank": 20,
+        "name": "GPT-5.5",
+        "author": "openai",
+        "tokens": 443000000000,
+        "tokens_display": "443.0B",
+        "weekly_change_pct": 6.0
+      }
+    ],
+    "market_share": [
+      {
+        "rank": 1,
+        "author": "deepseek",
+        "tokens": 705000000000,
+        "tokens_display": "705.0B",
+        "market_share_pct": 18.9
+      },
+      {
+        "rank": 2,
+        "author": "anthropic",
+        "tokens": 606000000000,
+        "tokens_display": "606.0B",
+        "market_share_pct": 16.2
+      },
+      {
+        "rank": 3,
+        "author": "tencent",
+        "tokens": 493000000000,
+        "tokens_display": "493.0B",
+        "market_share_pct": 13.2
+      },
+      {
+        "rank": 4,
+        "author": "google",
+        "tokens": 346000000000,
+        "tokens_display": "346.0B",
+        "market_share_pct": 9.3
+      },
+      {
+        "rank": 5,
+        "author": "xiaomi",
+        "tokens": 330000000000,
+        "tokens_display": "330.0B",
+        "market_share_pct": 8.8
+      },
+      {
+        "rank": 6,
+        "author": "minimax",
+        "tokens": 302000000000,
+        "tokens_display": "302.0B",
+        "market_share_pct": 8.1
+      },
+      {
+        "rank": 7,
+        "author": "openai",
+        "tokens": 227000000000,
+        "tokens_display": "227.0B",
+        "market_share_pct": 6.1
+      },
+      {
+        "rank": 8,
+        "author": "openrouter",
+        "tokens": 190000000000,
+        "tokens_display": "190.0B",
+        "market_share_pct": 5.1
+      },
+      {
+        "rank": 9,
+        "author": "nvidia",
+        "tokens": 114000000000,
+        "tokens_display": "114.0B",
+        "market_share_pct": 3.1
+      },
+      {
+        "rank": 10,
+        "author": "Others",
+        "tokens": 421000000000,
+        "tokens_display": "421.0B",
+        "market_share_pct": 11.3
+      }
+    ]
   }
 ]
