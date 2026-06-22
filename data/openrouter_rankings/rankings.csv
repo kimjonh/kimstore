@@ -1,26 +1,27 @@
-﻿rank,model,author,2026-W25,2026-W24,2026-W22,2026-W21
-1,DeepSeek V4 Flash,deepseek,4.41T(1),3.69T(1),3.11T(1),3.53T(1)
-2,MiniMax M3,minimax,4.32T(2),,,
-3,Hy3 preview,tencent,4.14T(3),2.94T(2),3.03T(2),3.11T(2)
-4,MiMo-V2.5,xiaomi,3.59T(4),2.19T(4),1.7T(6),421.0B(19)
-5,Owl Alpha,openrouter,2.47T(5),1.95T(5),1.66T(5),1.38T(5)
-6,Claude Opus 4.7,anthropic,2.34T(6),1.44T(8),2.32T(3),2.64T(3)
-7,Claude Sonnet 4.6,anthropic,2.13T(7),1.76T(6),1.92T(4),2.05T(4)
-8,DeepSeek V4 Pro,deepseek,1.96T(8),1.7T(7),1.25T(7),1.21T(6)
-9,Claude Opus 4.8,anthropic,1.25T(9),1.16T(10),,
-10,DeepSeek V3.2,deepseek,1.15T(10),1.17T(9),1.04T(9),961.0B(8)
-11,Gemini 3 Flash Preview,google,980.0B(11),1.05T(11),952.0B(10),1.01T(7)
-12,Nemotron 3 Ultra (free),nvidia,794.0B(12),,,
-13,Step 3.7 Flash,stepfun,774.0B(13),810.0B(12),,
-14,Gemini 2.5 Flash Lite,google,682.0B(14),594.0B(15),576.0B(12),626.0B(11)
-15,Gemini 2.5 Flash,google,626.0B(15),631.0B(14),532.0B(15),540.0B(13)
-16,Laguna M.1 (free),poolside,608.0B(16),568.0B(16),531.0B(16),403.0B(20)
-17,GLM 5.1,z-ai,549.0B(17),,,
-18,MiMo-V2.5-Pro,xiaomi,504.0B(18),674.0B(13),1.24T(8),819.0B(9)
-20,Gemini 3.5 Flash,google,470.0B(20),487.0B(18),528.0B(17),520.0B(15)
-,Nemotron 3 Super (free),nvidia,,534.0B(17),668.0B(11),662.0B(10)
-,Kimi K2.6,moonshotai,,,552.0B(13),620.0B(12)
-,MiniMax M2.7,minimax,,,526.0B(18),538.0B(14)
-,GPT-4o-mini,openai,,,481.0B(19),495.0B(16)
-,GPT-5.5,openai,,443.0B(20),473.0B(20),468.0B(17)
-,Claude Opus 4.6,anthropic,,458.0B(19),540.0B(14),457.0B(18)
+﻿rank,model,author,2026-W26,2026-W25,2026-W24,2026-W22,2026-W21
+1,DeepSeek V4 Flash,deepseek,4.94T(1),4.41T(1),3.69T(1),3.11T(1),3.53T(1)
+2,MiMo-V2.5,xiaomi,3.94T(2),3.59T(4),2.19T(4),1.7T(6),421.0B(19)
+3,MiniMax M3,minimax,3.77T(3),4.32T(2),,,
+4,Hy3 preview,tencent,3.63T(4),4.14T(3),2.94T(2),3.03T(2),3.11T(2)
+5,Owl Alpha,openrouter,2.56T(5),2.47T(5),1.95T(5),1.66T(5),1.38T(5)
+6,DeepSeek V4 Pro,deepseek,2.53T(6),1.96T(8),1.7T(7),1.25T(7),1.21T(6)
+7,Claude Opus 4.7,anthropic,2.53T(7),2.34T(6),1.44T(8),2.32T(3),2.64T(3)
+8,Claude Opus 4.8,anthropic,1.69T(8),1.25T(9),1.16T(10),,
+9,Claude Sonnet 4.6,anthropic,1.54T(9),2.13T(7),1.76T(6),1.92T(4),2.05T(4)
+11,GPT-5.5,openai,996.0B(11),,443.0B(20),473.0B(20),468.0B(17)
+12,GLM 5.1,z-ai,993.0B(12),549.0B(17),,,
+13,DeepSeek V3.2,deepseek,989.0B(13),1.15T(10),1.17T(9),1.04T(9),961.0B(8)
+14,Gemini 3 Flash Preview,google,944.0B(14),980.0B(11),1.05T(11),952.0B(10),1.01T(7)
+15,Step 3.7 Flash,stepfun,886.0B(15),774.0B(13),810.0B(12),,
+16,Gemini 2.5 Flash Lite,google,680.0B(16),682.0B(14),594.0B(15),576.0B(12),626.0B(11)
+17,Nemotron 3 Ultra (free),nvidia,629.0B(17),794.0B(12),,,
+18,Gemini 2.5 Flash,google,621.0B(18),626.0B(15),631.0B(14),532.0B(15),540.0B(13)
+19,Nex-N2-Pro (free),nex-agi,583.0B(19),,,,
+20,Kimi K2.6,moonshotai,579.0B(20),,,552.0B(13),620.0B(12)
+,MiMo-V2.5-Pro,xiaomi,,504.0B(18),674.0B(13),1.24T(8),819.0B(9)
+,Nemotron 3 Super (free),nvidia,,,534.0B(17),668.0B(11),662.0B(10)
+,MiniMax M2.7,minimax,,,,526.0B(18),538.0B(14)
+,Gemini 3.5 Flash,google,,470.0B(20),487.0B(18),528.0B(17),520.0B(15)
+,GPT-4o-mini,openai,,,,481.0B(19),495.0B(16)
+,Claude Opus 4.6,anthropic,,,458.0B(19),540.0B(14),457.0B(18)
+,Laguna M.1 (free),poolside,,608.0B(16),568.0B(16),531.0B(16),403.0B(20)
