@@ -1497,5 +1497,165 @@
       }
     ],
     "market_share": []
+  },
+  {
+    "source": "https://openrouter.ai/rankings",
+    "fetched_at": "2026-07-13T02:28:13.417061+00:00",
+    "week": "2026-W29",
+    "model_rankings": [
+      {
+        "rank": 2,
+        "name": "MiMo-V2.5",
+        "author": "xiaomi",
+        "tokens": 5950000000000,
+        "tokens_display": "5.95T",
+        "weekly_change_pct": 36.0
+      },
+      {
+        "rank": 3,
+        "name": "DeepSeek V4 Flash",
+        "author": "deepseek",
+        "tokens": 5220000000000,
+        "tokens_display": "5.22T",
+        "weekly_change_pct": 2.0
+      },
+      {
+        "rank": 4,
+        "name": "MiniMax M3",
+        "author": "minimax",
+        "tokens": 4260000000000,
+        "tokens_display": "4.26T",
+        "weekly_change_pct": 4.0
+      },
+      {
+        "rank": 5,
+        "name": "GLM 5.2",
+        "author": "z-ai",
+        "tokens": 3190000000000,
+        "tokens_display": "3.19T",
+        "weekly_change_pct": 24.0
+      },
+      {
+        "rank": 6,
+        "name": "DeepSeek V4 Pro",
+        "author": "deepseek",
+        "tokens": 2830000000000,
+        "tokens_display": "2.83T",
+        "weekly_change_pct": 20.0
+      },
+      {
+        "rank": 7,
+        "name": "Claude Opus 4.7",
+        "author": "anthropic",
+        "tokens": 2260000000000,
+        "tokens_display": "2.26T",
+        "weekly_change_pct": 3.0
+      },
+      {
+        "rank": 8,
+        "name": "Nemotron 3 Ultra (free)",
+        "author": "nvidia",
+        "tokens": 2040000000000,
+        "tokens_display": "2.04T",
+        "weekly_change_pct": 109.0
+      },
+      {
+        "rank": 9,
+        "name": "Claude Opus 4.8",
+        "author": "anthropic",
+        "tokens": 2030000000000,
+        "tokens_display": "2.03T",
+        "weekly_change_pct": 3.0
+      },
+      {
+        "rank": 10,
+        "name": "Step 3.7 Flash",
+        "author": "stepfun",
+        "tokens": 1220000000000,
+        "tokens_display": "1.22T",
+        "weekly_change_pct": 22.0
+      },
+      {
+        "rank": 11,
+        "name": "Claude Sonnet 4.6",
+        "author": "anthropic",
+        "tokens": 995000000000,
+        "tokens_display": "995.0B",
+        "weekly_change_pct": 30.0
+      },
+      {
+        "rank": 12,
+        "name": "Gemini 3 Flash Preview",
+        "author": "google",
+        "tokens": 937000000000,
+        "tokens_display": "937.0B",
+        "weekly_change_pct": 1.0
+      },
+      {
+        "rank": 13,
+        "name": "Claude Sonnet 5",
+        "author": "anthropic",
+        "tokens": 923000000000,
+        "tokens_display": "923.0B",
+        "weekly_change_pct": 72.0
+      },
+      {
+        "rank": 14,
+        "name": "GPT-5.5",
+        "author": "openai",
+        "tokens": 873000000000,
+        "tokens_display": "873.0B",
+        "weekly_change_pct": 23.0
+      },
+      {
+        "rank": 15,
+        "name": "Gemini 2.5 Flash",
+        "author": "google",
+        "tokens": 612000000000,
+        "tokens_display": "612.0B",
+        "weekly_change_pct": 2.0
+      },
+      {
+        "rank": 16,
+        "name": "MiMo-V2.5-Pro",
+        "author": "xiaomi",
+        "tokens": 606000000000,
+        "tokens_display": "606.0B",
+        "weekly_change_pct": 9.0
+      },
+      {
+        "rank": 17,
+        "name": "Gemini 2.5 Flash Lite",
+        "author": "google",
+        "tokens": 561000000000,
+        "tokens_display": "561.0B",
+        "weekly_change_pct": 7.0
+      },
+      {
+        "rank": 18,
+        "name": "Laguna M.1 (free)",
+        "author": "poolside",
+        "tokens": 544000000000,
+        "tokens_display": "544.0B",
+        "weekly_change_pct": 24.0
+      },
+      {
+        "rank": 19,
+        "name": "Gemini 3.1 Flash Lite",
+        "author": "google",
+        "tokens": 507000000000,
+        "tokens_display": "507.0B",
+        "weekly_change_pct": 15.0
+      },
+      {
+        "rank": 20,
+        "name": "gpt-oss-120b",
+        "author": "openai",
+        "tokens": 505000000000,
+        "tokens_display": "505.0B",
+        "weekly_change_pct": 7.0
+      }
+    ],
+    "market_share": []
   }
 ]
