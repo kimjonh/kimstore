@@ -1825,5 +1825,173 @@
       }
     ],
     "market_share": []
+  },
+  {
+    "source": "https://openrouter.ai/rankings",
+    "fetched_at": "2026-07-27T02:36:09.188097+00:00",
+    "week": "2026-W31",
+    "model_rankings": [
+      {
+        "rank": 1,
+        "name": "MiMo-V2.5",
+        "author": "xiaomi",
+        "tokens": 10500000000000,
+        "tokens_display": "10.5T",
+        "weekly_change_pct": 12.0
+      },
+      {
+        "rank": 2,
+        "name": "DeepSeek V4 Flash",
+        "author": "deepseek",
+        "tokens": 6370000000000,
+        "tokens_display": "6.37T",
+        "weekly_change_pct": 18.0
+      },
+      {
+        "rank": 3,
+        "name": "Hy3",
+        "author": "tencent",
+        "tokens": 3940000000000,
+        "tokens_display": "3.94T",
+        "weekly_change_pct": 999.0
+      },
+      {
+        "rank": 4,
+        "name": "GLM 5.2",
+        "author": "z-ai",
+        "tokens": 3290000000000,
+        "tokens_display": "3.29T",
+        "weekly_change_pct": 10.0
+      },
+      {
+        "rank": 5,
+        "name": "DeepSeek V4 Pro",
+        "author": "deepseek",
+        "tokens": 3170000000000,
+        "tokens_display": "3.17T",
+        "weekly_change_pct": 17.0
+      },
+      {
+        "rank": 6,
+        "name": "Nemotron 3 Ultra (free)",
+        "author": "nvidia",
+        "tokens": 2340000000000,
+        "tokens_display": "2.34T",
+        "weekly_change_pct": 26.0
+      },
+      {
+        "rank": 7,
+        "name": "MiniMax M3",
+        "author": "minimax",
+        "tokens": 2050000000000,
+        "tokens_display": "2.05T",
+        "weekly_change_pct": 46.0
+      },
+      {
+        "rank": 8,
+        "name": "Step 3.7 Flash",
+        "author": "stepfun",
+        "tokens": 1920000000000,
+        "tokens_display": "1.92T",
+        "weekly_change_pct": 156.0
+      },
+      {
+        "rank": 9,
+        "name": "Hy3 (free)",
+        "author": "tencent",
+        "tokens": 1760000000000,
+        "tokens_display": "1.76T",
+        "weekly_change_pct": 85.0
+      },
+      {
+        "rank": 10,
+        "name": "Claude Opus 4.8",
+        "author": "anthropic",
+        "tokens": 1440000000000,
+        "tokens_display": "1.44T",
+        "weekly_change_pct": 30.0
+      },
+      {
+        "rank": 11,
+        "name": "Kimi K3",
+        "author": "moonshotai",
+        "tokens": 1230000000000,
+        "tokens_display": "1.23T",
+        "weekly_change_pct": 217.0
+      },
+      {
+        "rank": 12,
+        "name": "Claude Sonnet 5",
+        "author": "anthropic",
+        "tokens": 1040000000000,
+        "tokens_display": "1.04T",
+        "weekly_change_pct": 3.0
+      },
+      {
+        "rank": 13,
+        "name": "Gemini 3 Flash Preview",
+        "author": "google",
+        "tokens": 975000000000,
+        "tokens_display": "975.0B",
+        "weekly_change_pct": 2.0
+      },
+      {
+        "rank": 14,
+        "name": "Claude Opus 4.7",
+        "author": "anthropic",
+        "tokens": 926000000000,
+        "tokens_display": "926.0B",
+        "weekly_change_pct": 57.0
+      },
+      {
+        "rank": 15,
+        "name": "Claude Sonnet 4.6",
+        "author": "anthropic",
+        "tokens": 783000000000,
+        "tokens_display": "783.0B",
+        "weekly_change_pct": 15.0
+      },
+      {
+        "rank": 16,
+        "name": "Gemini 2.5 Flash Lite",
+        "author": "google",
+        "tokens": 665000000000,
+        "tokens_display": "665.0B",
+        "weekly_change_pct": 16.0
+      },
+      {
+        "rank": 17,
+        "name": "Gemini 2.5 Flash",
+        "author": "google",
+        "tokens": 628000000000,
+        "tokens_display": "628.0B",
+        "weekly_change_pct": 5.0
+      },
+      {
+        "rank": 18,
+        "name": "MiMo-V2.5-Pro",
+        "author": "xiaomi",
+        "tokens": 598000000000,
+        "tokens_display": "598.0B",
+        "weekly_change_pct": 1.0
+      },
+      {
+        "rank": 19,
+        "name": "Gemini 3.1 Flash Lite",
+        "author": "google",
+        "tokens": 586000000000,
+        "tokens_display": "586.0B",
+        "weekly_change_pct": 7.0
+      },
+      {
+        "rank": 20,
+        "name": "Grok 4.5",
+        "author": "x-ai",
+        "tokens": 571000000000,
+        "tokens_display": "571.0B",
+        "weekly_change_pct": 74.0
+      }
+    ],
+    "market_share": []
   }
 ]
