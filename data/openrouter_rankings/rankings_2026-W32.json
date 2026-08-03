@@ -1,0 +1,160 @@
+{
+  "source": "https://openrouter.ai/rankings",
+  "fetched_at": "2026-08-03T02:29:26.448747+00:00",
+  "week": "2026-W32",
+  "model_rankings": [
+    {
+      "rank": 1,
+      "name": "DeepSeek V4 Flash",
+      "author": "deepseek",
+      "tokens": 7220000000000,
+      "tokens_display": "7.22T",
+      "weekly_change_pct": 13.0
+    },
+    {
+      "rank": 2,
+      "name": "MiMo-V2.5",
+      "author": "xiaomi",
+      "tokens": 6300000000000,
+      "tokens_display": "6.3T",
+      "weekly_change_pct": 40.0
+    },
+    {
+      "rank": 3,
+      "name": "Hy3",
+      "author": "tencent",
+      "tokens": 4820000000000,
+      "tokens_display": "4.82T",
+      "weekly_change_pct": 22.0
+    },
+    {
+      "rank": 4,
+      "name": "DeepSeek V4 Pro",
+      "author": "deepseek",
+      "tokens": 3280000000000,
+      "tokens_display": "3.28T",
+      "weekly_change_pct": 3.0
+    },
+    {
+      "rank": 5,
+      "name": "GLM 5.2",
+      "author": "z-ai",
+      "tokens": 2890000000000,
+      "tokens_display": "2.89T",
+      "weekly_change_pct": 12.0
+    },
+    {
+      "rank": 6,
+      "name": "Nemotron 3 Ultra (free)",
+      "author": "nvidia",
+      "tokens": 2430000000000,
+      "tokens_display": "2.43T",
+      "weekly_change_pct": 4.0
+    },
+    {
+      "rank": 7,
+      "name": "MiniMax M3",
+      "author": "minimax",
+      "tokens": 1960000000000,
+      "tokens_display": "1.96T",
+      "weekly_change_pct": 4.0
+    },
+    {
+      "rank": 8,
+      "name": "GPT-5.6 Luna",
+      "author": "openai",
+      "tokens": 1950000000000,
+      "tokens_display": "1.95T",
+      "weekly_change_pct": 465.0
+    },
+    {
+      "rank": 9,
+      "name": "Step 3.7 Flash",
+      "author": "stepfun",
+      "tokens": 1660000000000,
+      "tokens_display": "1.66T",
+      "weekly_change_pct": 14.0
+    },
+    {
+      "rank": 10,
+      "name": "Kimi K3",
+      "author": "moonshotai",
+      "tokens": 1420000000000,
+      "tokens_display": "1.42T",
+      "weekly_change_pct": 16.0
+    },
+    {
+      "rank": 11,
+      "name": "Ling-3.0-flash (free)",
+      "author": "inclusionai",
+      "tokens": 1390000000000,
+      "tokens_display": "1.39T",
+      "weekly_change_pct": 234.0
+    },
+    {
+      "rank": 13,
+      "name": "Claude Sonnet 5",
+      "author": "anthropic",
+      "tokens": 1010000000000,
+      "tokens_display": "1.01T",
+      "weekly_change_pct": 3.0
+    },
+    {
+      "rank": 14,
+      "name": "Claude Sonnet 4.6",
+      "author": "anthropic",
+      "tokens": 998000000000,
+      "tokens_display": "998.0B",
+      "weekly_change_pct": 27.0
+    },
+    {
+      "rank": 15,
+      "name": "Gemini 3 Flash Preview",
+      "author": "google",
+      "tokens": 983000000000,
+      "tokens_display": "983.0B",
+      "weekly_change_pct": 1.0
+    },
+    {
+      "rank": 16,
+      "name": "Claude Opus 5",
+      "author": "anthropic",
+      "tokens": 981000000000,
+      "tokens_display": "981.0B",
+      "weekly_change_pct": 513.0
+    },
+    {
+      "rank": 17,
+      "name": "Laguna S 2.1 (free)",
+      "author": "poolside",
+      "tokens": 930000000000,
+      "tokens_display": "930.0B",
+      "weekly_change_pct": 346.0
+    },
+    {
+      "rank": 18,
+      "name": "Gemini 2.5 Flash Lite",
+      "author": "google",
+      "tokens": 653000000000,
+      "tokens_display": "653.0B",
+      "weekly_change_pct": 2.0
+    },
+    {
+      "rank": 19,
+      "name": "MiMo-V2.5-Pro",
+      "author": "xiaomi",
+      "tokens": 595000000000,
+      "tokens_display": "595.0B",
+      "weekly_change_pct": 1.0
+    },
+    {
+      "rank": 20,
+      "name": "Claude Opus 4.8",
+      "author": "anthropic",
+      "tokens": 558000000000,
+      "tokens_display": "558.0B",
+      "weekly_change_pct": 61.0
+    }
+  ],
+  "market_share": []
+}
