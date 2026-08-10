@@ -2153,5 +2153,173 @@
       }
     ],
     "market_share": []
+  },
+  {
+    "source": "https://openrouter.ai/rankings",
+    "fetched_at": "2026-08-10T01:24:24.310767+00:00",
+    "week": "2026-W33",
+    "model_rankings": [
+      {
+        "rank": 1,
+        "name": "DeepSeek V4 Flash 0731",
+        "author": "deepseek",
+        "tokens": 8830000000000,
+        "tokens_display": "8.83T",
+        "weekly_change_pct": 570.0
+      },
+      {
+        "rank": 2,
+        "name": "Hy3",
+        "author": "tencent",
+        "tokens": 8050000000000,
+        "tokens_display": "8.05T",
+        "weekly_change_pct": 67.0
+      },
+      {
+        "rank": 3,
+        "name": "DeepSeek V4 Flash 0423",
+        "author": "deepseek",
+        "tokens": 5880000000000,
+        "tokens_display": "5.88T",
+        "weekly_change_pct": 19.0
+      },
+      {
+        "rank": 4,
+        "name": "MiMo-V2.5",
+        "author": "xiaomi",
+        "tokens": 5390000000000,
+        "tokens_display": "5.39T",
+        "weekly_change_pct": 14.0
+      },
+      {
+        "rank": 5,
+        "name": "GPT-5.6 Luna",
+        "author": "openai",
+        "tokens": 4430000000000,
+        "tokens_display": "4.43T",
+        "weekly_change_pct": 128.0
+      },
+      {
+        "rank": 6,
+        "name": "GLM 5.2",
+        "author": "z-ai",
+        "tokens": 3490000000000,
+        "tokens_display": "3.49T",
+        "weekly_change_pct": 21.0
+      },
+      {
+        "rank": 7,
+        "name": "DeepSeek V4 Pro",
+        "author": "deepseek",
+        "tokens": 2610000000000,
+        "tokens_display": "2.61T",
+        "weekly_change_pct": 20.0
+      },
+      {
+        "rank": 8,
+        "name": "Nemotron 3 Ultra (free)",
+        "author": "nvidia",
+        "tokens": 2410000000000,
+        "tokens_display": "2.41T",
+        "weekly_change_pct": 1.0
+      },
+      {
+        "rank": 9,
+        "name": "Gemini 3.6 Flash",
+        "author": "google",
+        "tokens": 2330000000000,
+        "tokens_display": "2.33T",
+        "weekly_change_pct": 446.0
+      },
+      {
+        "rank": 10,
+        "name": "Laguna S 2.1 (free)",
+        "author": "poolside",
+        "tokens": 1870000000000,
+        "tokens_display": "1.87T",
+        "weekly_change_pct": 101.0
+      },
+      {
+        "rank": 11,
+        "name": "MiniMax M3",
+        "author": "minimax",
+        "tokens": 1700000000000,
+        "tokens_display": "1.7T",
+        "weekly_change_pct": 13.0
+      },
+      {
+        "rank": 12,
+        "name": "Kimi K3",
+        "author": "moonshotai",
+        "tokens": 1350000000000,
+        "tokens_display": "1.35T",
+        "weekly_change_pct": 5.0
+      },
+      {
+        "rank": 13,
+        "name": "Claude Opus 5",
+        "author": "anthropic",
+        "tokens": 1320000000000,
+        "tokens_display": "1.32T",
+        "weekly_change_pct": 35.0
+      },
+      {
+        "rank": 14,
+        "name": "Step 3.7 Flash",
+        "author": "stepfun",
+        "tokens": 1270000000000,
+        "tokens_display": "1.27T",
+        "weekly_change_pct": 23.0
+      },
+      {
+        "rank": 15,
+        "name": "Claude Sonnet 5",
+        "author": "anthropic",
+        "tokens": 1050000000000,
+        "tokens_display": "1.05T",
+        "weekly_change_pct": 4.0
+      },
+      {
+        "rank": 16,
+        "name": "Gemini 3 Flash Preview",
+        "author": "google",
+        "tokens": 899000000000,
+        "tokens_display": "899.0B",
+        "weekly_change_pct": 9.0
+      },
+      {
+        "rank": 17,
+        "name": "Claude Sonnet 4.6",
+        "author": "anthropic",
+        "tokens": 841000000000,
+        "tokens_display": "841.0B",
+        "weekly_change_pct": 16.0
+      },
+      {
+        "rank": 18,
+        "name": "GPT-5.6 Terra",
+        "author": "openai",
+        "tokens": 802000000000,
+        "tokens_display": "802.0B",
+        "weekly_change_pct": 63.0
+      },
+      {
+        "rank": 19,
+        "name": "Ling-3.0-flash",
+        "author": "inclusionai",
+        "tokens": 627000000000,
+        "tokens_display": "627.0B",
+        "weekly_change_pct": 55.0
+      },
+      {
+        "rank": 20,
+        "name": "Gemini 2.5 Flash Lite",
+        "author": "google",
+        "tokens": 619000000000,
+        "tokens_display": "619.0B",
+        "weekly_change_pct": 5.0
+      }
+    ],
+    "market_share": []
   }
 ]
