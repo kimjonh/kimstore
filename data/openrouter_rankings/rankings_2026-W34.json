@@ -1,0 +1,168 @@
+{
+  "source": "https://openrouter.ai/rankings",
+  "fetched_at": "2026-08-17T01:02:31.697169+00:00",
+  "week": "2026-W34",
+  "model_rankings": [
+    {
+      "rank": 1,
+      "name": "DeepSeek V4 Flash 0731",
+      "author": "deepseek",
+      "tokens": 11200000000000,
+      "tokens_display": "11.2T",
+      "weekly_change_pct": 27.0
+    },
+    {
+      "rank": 2,
+      "name": "Hy3",
+      "author": "tencent",
+      "tokens": 9950000000000,
+      "tokens_display": "9.95T",
+      "weekly_change_pct": 24.0
+    },
+    {
+      "rank": 3,
+      "name": "GPT-5.6 Luna",
+      "author": "openai",
+      "tokens": 5310000000000,
+      "tokens_display": "5.31T",
+      "weekly_change_pct": 20.0
+    },
+    {
+      "rank": 4,
+      "name": "DeepSeek V4 Flash 0423",
+      "author": "deepseek",
+      "tokens": 4830000000000,
+      "tokens_display": "4.83T",
+      "weekly_change_pct": 18.0
+    },
+    {
+      "rank": 5,
+      "name": "GLM 5.2",
+      "author": "z-ai",
+      "tokens": 4330000000000,
+      "tokens_display": "4.33T",
+      "weekly_change_pct": 24.0
+    },
+    {
+      "rank": 6,
+      "name": "MiMo-V2.5",
+      "author": "xiaomi",
+      "tokens": 3790000000000,
+      "tokens_display": "3.79T",
+      "weekly_change_pct": 30.0
+    },
+    {
+      "rank": 7,
+      "name": "DeepSeek V4 Pro 0423",
+      "author": "deepseek",
+      "tokens": 2740000000000,
+      "tokens_display": "2.74T",
+      "weekly_change_pct": 5.0
+    },
+    {
+      "rank": 8,
+      "name": "Claude Opus 5",
+      "author": "anthropic",
+      "tokens": 2670000000000,
+      "tokens_display": "2.67T",
+      "weekly_change_pct": 102.0
+    },
+    {
+      "rank": 9,
+      "name": "Gemini 3.6 Flash",
+      "author": "google",
+      "tokens": 2280000000000,
+      "tokens_display": "2.28T",
+      "weekly_change_pct": 2.0
+    },
+    {
+      "rank": 10,
+      "name": "Nemotron 3 Ultra (free)",
+      "author": "nvidia",
+      "tokens": 2140000000000,
+      "tokens_display": "2.14T",
+      "weekly_change_pct": 11.0
+    },
+    {
+      "rank": 11,
+      "name": "Laguna S 2.1 (free)",
+      "author": "poolside",
+      "tokens": 1660000000000,
+      "tokens_display": "1.66T",
+      "weekly_change_pct": 11.0
+    },
+    {
+      "rank": 12,
+      "name": "MiniMax M3",
+      "author": "minimax",
+      "tokens": 1530000000000,
+      "tokens_display": "1.53T",
+      "weekly_change_pct": 10.0
+    },
+    {
+      "rank": 13,
+      "name": "Kimi K3",
+      "author": "moonshotai",
+      "tokens": 1410000000000,
+      "tokens_display": "1.41T",
+      "weekly_change_pct": 4.0
+    },
+    {
+      "rank": 14,
+      "name": "Claude Sonnet 5",
+      "author": "anthropic",
+      "tokens": 1080000000000,
+      "tokens_display": "1.08T",
+      "weekly_change_pct": 3.0
+    },
+    {
+      "rank": 15,
+      "name": "Step 3.7 Flash",
+      "author": "stepfun",
+      "tokens": 966000000000,
+      "tokens_display": "966.0B",
+      "weekly_change_pct": 24.0
+    },
+    {
+      "rank": 16,
+      "name": "GPT-5.6 Terra",
+      "author": "openai",
+      "tokens": 931000000000,
+      "tokens_display": "931.0B",
+      "weekly_change_pct": 16.0
+    },
+    {
+      "rank": 17,
+      "name": "Gemini 3 Flash Preview",
+      "author": "google",
+      "tokens": 839000000000,
+      "tokens_display": "839.0B",
+      "weekly_change_pct": 7.0
+    },
+    {
+      "rank": 18,
+      "name": "Claude Sonnet 4.6",
+      "author": "anthropic",
+      "tokens": 736000000000,
+      "tokens_display": "736.0B",
+      "weekly_change_pct": 13.0
+    },
+    {
+      "rank": 19,
+      "name": "Gemini 2.5 Flash Lite",
+      "author": "google",
+      "tokens": 712000000000,
+      "tokens_display": "712.0B",
+      "weekly_change_pct": 15.0
+    },
+    {
+      "rank": 20,
+      "name": "GPT-5.6 Sol",
+      "author": "openai",
+      "tokens": 706000000000,
+      "tokens_display": "706.0B",
+      "weekly_change_pct": 14.0
+    }
+  ],
+  "market_share": []
+}
