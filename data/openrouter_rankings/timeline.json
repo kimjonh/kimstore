@@ -2649,5 +2649,149 @@
       }
     ],
     "market_share": []
+  },
+  {
+    "source": "https://openrouter.ai/rankings",
+    "fetched_at": "2026-08-31T03:23:05.776508+00:00",
+    "week": "2026-W36",
+    "model_rankings": [
+      {
+        "rank": 1,
+        "name": "Ox Alpha",
+        "author": "stealth",
+        "tokens": 15700000000000,
+        "tokens_display": "15.7T",
+        "weekly_change_pct": 36.0
+      },
+      {
+        "rank": 2,
+        "name": "DeepSeek V4 Flash 0731",
+        "author": "deepseek",
+        "tokens": 12300000000000,
+        "tokens_display": "12.3T",
+        "weekly_change_pct": 6.0
+      },
+      {
+        "rank": 3,
+        "name": "MiMo-V2.5",
+        "author": "xiaomi",
+        "tokens": 9140000000000,
+        "tokens_display": "9.14T",
+        "weekly_change_pct": 8.0
+      },
+      {
+        "rank": 4,
+        "name": "GPT-5.6 Luna",
+        "author": "openai",
+        "tokens": 7790000000000,
+        "tokens_display": "7.79T",
+        "weekly_change_pct": 59.0
+      },
+      {
+        "rank": 5,
+        "name": "Hy3",
+        "author": "tencent",
+        "tokens": 6660000000000,
+        "tokens_display": "6.66T",
+        "weekly_change_pct": 19.0
+      },
+      {
+        "rank": 7,
+        "name": "Nemotron 3 Ultra (free)",
+        "author": "nvidia",
+        "tokens": 5330000000000,
+        "tokens_display": "5.33T",
+        "weekly_change_pct": 12.0
+      },
+      {
+        "rank": 8,
+        "name": "DeepSeek V4 Flash 0423",
+        "author": "deepseek",
+        "tokens": 5200000000000,
+        "tokens_display": "5.2T",
+        "weekly_change_pct": 5.0
+      },
+      {
+        "rank": 9,
+        "name": "Gemini 3.7 Flash",
+        "author": "google",
+        "tokens": 3950000000000,
+        "tokens_display": "3.95T",
+        "weekly_change_pct": 120.0
+      },
+      {
+        "rank": 11,
+        "name": "GLM 5.2",
+        "author": "z-ai",
+        "tokens": 2990000000000,
+        "tokens_display": "2.99T",
+        "weekly_change_pct": 12.0
+      },
+      {
+        "rank": 13,
+        "name": "DeepSeek V4 Pro 0423",
+        "author": "deepseek",
+        "tokens": 1770000000000,
+        "tokens_display": "1.77T",
+        "weekly_change_pct": 4.0
+      },
+      {
+        "rank": 14,
+        "name": "GPT-5.6 Sol",
+        "author": "openai",
+        "tokens": 1700000000000,
+        "tokens_display": "1.7T",
+        "weekly_change_pct": 29.0
+      },
+      {
+        "rank": 15,
+        "name": "Kimi K3",
+        "author": "moonshotai",
+        "tokens": 1570000000000,
+        "tokens_display": "1.57T",
+        "weekly_change_pct": 19.0
+      },
+      {
+        "rank": 16,
+        "name": "MiniMax M3",
+        "author": "minimax",
+        "tokens": 1520000000000,
+        "tokens_display": "1.52T",
+        "weekly_change_pct": 11.0
+      },
+      {
+        "rank": 17,
+        "name": "Claude Opus 5",
+        "author": "anthropic",
+        "tokens": 1460000000000,
+        "tokens_display": "1.46T",
+        "weekly_change_pct": 0.0
+      },
+      {
+        "rank": 18,
+        "name": "Laguna S 2.1 (free)",
+        "author": "poolside",
+        "tokens": 1350000000000,
+        "tokens_display": "1.35T",
+        "weekly_change_pct": 16.0
+      },
+      {
+        "rank": 19,
+        "name": "GLM 5.3",
+        "author": "z-ai",
+        "tokens": 1330000000000,
+        "tokens_display": "1.33T",
+        "weekly_change_pct": 171.0
+      },
+      {
+        "rank": 20,
+        "name": "Claude Sonnet 5",
+        "author": "anthropic",
+        "tokens": 1200000000000,
+        "tokens_display": "1.2T",
+        "weekly_change_pct": 11.0
+      }
+    ],
+    "market_share": []
   }
 ]
