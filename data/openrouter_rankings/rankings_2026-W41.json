@@ -1,0 +1,168 @@
+{
+  "source": "https://openrouter.ai/rankings",
+  "fetched_at": "2026-10-05T03:53:24.544474+00:00",
+  "week": "2026-W41",
+  "model_rankings": [
+    {
+      "rank": 1,
+      "name": "Space Bunny Alpha",
+      "author": "stealth",
+      "tokens": 38700000000000,
+      "tokens_display": "38.7T",
+      "weekly_change_pct": 179.0
+    },
+    {
+      "rank": 2,
+      "name": "DeepSeek V4.1 Flash",
+      "author": "deepseek",
+      "tokens": 25600000000000,
+      "tokens_display": "25.6T",
+      "weekly_change_pct": 31.0
+    },
+    {
+      "rank": 3,
+      "name": "GLM 5.3 Flash",
+      "author": "z-ai",
+      "tokens": 9730000000000,
+      "tokens_display": "9.73T",
+      "weekly_change_pct": 40.0
+    },
+    {
+      "rank": 4,
+      "name": "MiMo-V2.6-Flash",
+      "author": "xiaomi",
+      "tokens": 9630000000000,
+      "tokens_display": "9.63T",
+      "weekly_change_pct": 75.0
+    },
+    {
+      "rank": 5,
+      "name": "Hy4 preview",
+      "author": "tencent",
+      "tokens": 6510000000000,
+      "tokens_display": "6.51T",
+      "weekly_change_pct": 32.0
+    },
+    {
+      "rank": 6,
+      "name": "GPT-6 Luna",
+      "author": "openai",
+      "tokens": 6180000000000,
+      "tokens_display": "6.18T",
+      "weekly_change_pct": 116.0
+    },
+    {
+      "rank": 7,
+      "name": "DeepSeek V4 Flash 0731",
+      "author": "deepseek",
+      "tokens": 5990000000000,
+      "tokens_display": "5.99T",
+      "weekly_change_pct": 23.0
+    },
+    {
+      "rank": 8,
+      "name": "Nemotron 3 Ultra (free)",
+      "author": "nvidia",
+      "tokens": 5650000000000,
+      "tokens_display": "5.65T",
+      "weekly_change_pct": 0.0
+    },
+    {
+      "rank": 9,
+      "name": "GPT-5.6 Luna",
+      "author": "openai",
+      "tokens": 4370000000000,
+      "tokens_display": "4.37T",
+      "weekly_change_pct": 49.0
+    },
+    {
+      "rank": 10,
+      "name": "DeepSeek V4 Flash 0423",
+      "author": "deepseek",
+      "tokens": 3230000000000,
+      "tokens_display": "3.23T",
+      "weekly_change_pct": 4.0
+    },
+    {
+      "rank": 11,
+      "name": "Jev 1.13",
+      "author": "typesafe",
+      "tokens": 3100000000000,
+      "tokens_display": "3.1T",
+      "weekly_change_pct": 20.0
+    },
+    {
+      "rank": 12,
+      "name": "GLM 5.3",
+      "author": "z-ai",
+      "tokens": 2940000000000,
+      "tokens_display": "2.94T",
+      "weekly_change_pct": 5.0
+    },
+    {
+      "rank": 13,
+      "name": "Claude Opus 5.5",
+      "author": "anthropic",
+      "tokens": 2460000000000,
+      "tokens_display": "2.46T",
+      "weekly_change_pct": 128.0
+    },
+    {
+      "rank": 14,
+      "name": "Gemini 3.8 Flash",
+      "author": "google",
+      "tokens": 2180000000000,
+      "tokens_display": "2.18T",
+      "weekly_change_pct": 1.0
+    },
+    {
+      "rank": 15,
+      "name": "Hy3",
+      "author": "tencent",
+      "tokens": 2070000000000,
+      "tokens_display": "2.07T",
+      "weekly_change_pct": 19.0
+    },
+    {
+      "rank": 16,
+      "name": "Kimi K3",
+      "author": "moonshotai",
+      "tokens": 1620000000000,
+      "tokens_display": "1.62T",
+      "weekly_change_pct": 16.0
+    },
+    {
+      "rank": 17,
+      "name": "Muse Spark 1.3 Contributor",
+      "author": "meta",
+      "tokens": 1430000000000,
+      "tokens_display": "1.43T",
+      "weekly_change_pct": 14.0
+    },
+    {
+      "rank": 18,
+      "name": "GPT-6 Astra",
+      "author": "openai",
+      "tokens": 1410000000000,
+      "tokens_display": "1.41T",
+      "weekly_change_pct": 36.0
+    },
+    {
+      "rank": 19,
+      "name": "GLM 5.2",
+      "author": "z-ai",
+      "tokens": 1330000000000,
+      "tokens_display": "1.33T",
+      "weekly_change_pct": 12.0
+    },
+    {
+      "rank": 20,
+      "name": "GPT-5.6 Sol",
+      "author": "openai",
+      "tokens": 1320000000000,
+      "tokens_display": "1.32T",
+      "weekly_change_pct": 21.0
+    }
+  ],
+  "market_share": []
+}
